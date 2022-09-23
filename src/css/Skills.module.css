@@ -1,0 +1,74 @@
+.skillAndBtnContainer {
+  display: flex;
+  align-items: center;
+}
+
+.ulSkills {
+  margin: 0;
+  padding: 0;
+}
+
+.skillAndBtnContainer > * {
+  margin-right: 10px;
+}
+
+.skillStyle {
+  display: inline-flex;
+  margin: 4px 10px 4px 0px;
+  border: #f76c6c 1px solid;
+  border-radius: 4px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.btnDeleteSkill {
+  background-color: #dc3545;
+  color: white;
+  border: 1px solid black;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.formStyle {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.formStyle > * {
+  margin: 10px 0px;
+}
+
+.formElement {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f76c6c;
+}
+
+.addSkillTitle {
+    margin-top: 20px;
+}
+
+.btnValidateForm {
+  margin: 0px auto;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.validateColor {
+  background-color: #198754;
+}

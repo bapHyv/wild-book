@@ -1,0 +1,113 @@
+.infosContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillAndGradeElements {
+  display: flex;
+}
+
+.skillAndGradeElements > * {
+  margin: 0px 10px 0px 0px !important;
+}
+
+.skillAndGradeElements button {
+  width: auto;
+}
+
+.imgProfil {
+  max-width: 300px;
+  border: 1px solid #adb5bd;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #adb5bd;
+}
+
+.imgAndInputsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+  width: calc(95% - 300px);
+  justify-content: space-between;
+}
+
+.selectedAndGradeAddedContainer > * {
+  margin-right: 10px;
+}
+
+.btnsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btnSingleWilder {
+  margin: 0px auto;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.primaryColor {
+  background-color: #0d6efd;
+}
+
+.dangerColor {
+  background-color: #dc3545;
+}
+
+.labelsAndInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.ulSingleWilder {
+  padding: 0;
+}
+
+.ulSingleWilder > * {
+  width: auto;
+}
+
+.validateColor {
+  background-color: #198754;
+}
+
+.blackColor {
+  background-color: #212529;
+}
+
+.cyanColor {
+  background-color: #0dcaf0;
+}
+
+.btnAddSkillAndSkillsContainer {
+  margin-top: 50px;
+}
+
+.btnAddSkill {
+  width: 15%;
+}
+
+.skillsAndBtnContainer {
+  display: flex;
+  align-items: center;
+}
+
+.skillsAndBtnContainer button {
+  background-color: #dc3545;
+  margin-left: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnReturnToWilder {
+  width: 25%;
+  margin: 20px 0px;
+}
